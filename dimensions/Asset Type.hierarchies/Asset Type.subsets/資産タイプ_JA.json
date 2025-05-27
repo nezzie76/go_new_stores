@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"資産タイプ_JA",
+	"Alias":"資産タイプ_JA",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Freehold')"
+		},
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Leasehold')"
+		}
+	]
+}

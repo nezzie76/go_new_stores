@@ -1,1 +1,0 @@
-# go_new_stores

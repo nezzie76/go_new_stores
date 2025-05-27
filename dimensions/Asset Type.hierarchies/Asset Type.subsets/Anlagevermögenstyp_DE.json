@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"Anlagevermögenstyp_DE",
+	"Alias":"Anlagevermögenstyp_DE",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Freehold')"
+		},
+		{
+			"@id":"Dimensions('Asset Type')/Hierarchies('Asset Type')/Elements('Leasehold')"
+		}
+	]
+}
