@@ -1,0 +1,192 @@
+{
+	"@type":"Process",
+	"Name":"import_budget_version",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"import_budget_version.ti",
+	"UIData":"CubeAction=1511\fDataAction=1504\fCubeLogChanges=0\fMeasuresDimOrder=1\f_DeployParams={&quotdataAction&quot:&quotACCUMULATE&quot&#044&quotclass&quot:&quotDeployParams&quot&#044&quotdimensionConflictResolutions&quot:{}}\f_ParseParams={&quotmeasures&quot:[{&quotcolumnType&quot:&quotINT&quot&#044&quotsourceColumn&quot:-2&#044&quotcolumnName&quot:&quotCount&quot&#044&quotlabel&quot:&quotCount&quot&#044&quotmeasureType&quot:&quotEMPTY&quot&#044&quotexpression&quot:null&#044&quotlocale&quot:&quoten_US&quot&#044&quotexists&quot:false}]&#044&quothasHeader&quot:&quottrue&quot&#044&quotnumColumns&quot:&quot19&quot&#044&quotskipRows&quot:&quot0&quot&#044&quotlocale&quot:{&quotlanguange&quot:&quoten&quot&#044&quotvariant&quot:&quot&quot&#044&quotcountry&quot:&quotUS&quot}&#044&quotdimensions&quot:[{&quotdimensionType&quot:&quotGENERIC&quot&#044&quotleafSortDirection&quot:&quotDECENDING&quot&#044&quotconsolidatedSortDirection&quot:&quotDECENDING&quot&#044&quotqualifyHierarchy&quot:true&#044&quotcreateTotalRoot&quot:false&#044&quotinvariantName&quot:&quotBudget version&quot&#044&quotlevels&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:0&#044&quotcolumnName&quot:&quotBudget version&quot&#044&quotelementWeight&quot:&quot1&quot&#044&quotlabel&quot:&quotBudget version&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotPresupuesto versi\\u00f3n_ES&quot&#044&quotlabel&quot:&quotPresupuesto versi\\u00f3n_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotBudjettiversio_FI&quot&#044&quotlabel&quot:&quotBudjettiversio_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotBudgetplan Version_DE&quot&#044&quotlabel&quot:&quotBudgetplan Version_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotVersion du budget_FR&quot&#044&quotlabel&quot:&quotVersion du budget_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quot\\u4e88\\u7b97\\u6848_JA&quot&#044&quotlabel&quot:&quot\\u4e88\\u7b97\\u6848_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotProra\\u010dun&#044 verzija_HR&quot&#044&quotlabel&quot:&quotProra\\u010dun&#044 verzija_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quotK\\u00f6lts\\u00e9gvet\\u00e9si v\\u00e1ltozat_HU&quot&#044&quotlabel&quot:&quotK\\u00f6lts\\u00e9gvet\\u00e9si v\\u00e1ltozat_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotVersione budget_IT&quot&#044&quotlabel&quot:&quotVersione budget_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quot\\uc608\\uc0b0 \\ubc84\\uc804_KO&quot&#044&quotlabel&quot:&quot\\uc608\\uc0b0 \\ubc84\\uc804_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotBudsjettversjon_NO&quot&#044&quotlabel&quot:&quotBudsjettversjon_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quotBud\\u017cet&#044 wersja_PL&quot&#044&quotlabel&quot:&quotBud\\u017cet&#044 wersja_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotVers\\u00e3o do or\\u00e7amento_PT&quot&#044&quotlabel&quot:&quotVers\\u00e3o do or\\u00e7amento_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotVersiunea de buget_RO&quot&#044&quotlabel&quot:&quotVersiunea de buget_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quot\\u0412\\u0435\\u0440\\u0441\\u0438\\u044f \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442\\u0430_RU&quot&#044&quotlabel&quot:&quot\\u0412\\u0435\\u0440\\u0441\\u0438\\u044f \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442\\u0430_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quot\\u9884\\u7b97\\u7248\\u672c_SC&quot&#044&quotlabel&quot:&quot\\u9884\\u7b97\\u7248\\u672c_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quotBudgetversion_SV&quot&#044&quotlabel&quot:&quotBudgetversion_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u9810\\u7b97\\u7248\\u672c_TC&quot&#044&quotlabel&quot:&quot\\u9810\\u7b97\\u7248\\u672c_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotB\\u00fct\\u00e7e s\\u00fcr\\u00fcm_TR&quot&#044&quotlabel&quot:&quotB\\u00fct\\u00e7e s\\u00fcr\\u00fcm_TR&quot&#044&quotisAlias&quot:&quotfalse&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotexpression&quot:null&#044&quotexists&quot:true}]&#044&quotisMeasureDimension&quot:false&#044&quotparentChild&quot:false&#044&quotconsolidatedSortType&quot:&quotNONE&quot&#044&quotstrategy&quot:&quotMERGE&quot&#044&quotlabel&quot:&quotBudget version&quot&#044&quotisMemberUpdateStrategyChanged&quot:false&#044&quotleafSortType&quot:&quotNONE&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotPresupuesto versi\\u00f3n_ES&quot&#044&quotlabel&quot:&quotPresupuesto versi\\u00f3n_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotBudjettiversio_FI&quot&#044&quotlabel&quot:&quotBudjettiversio_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotBudgetplan Version_DE&quot&#044&quotlabel&quot:&quotBudgetplan Version_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotVersion du budget_FR&quot&#044&quotlabel&quot:&quotVersion du budget_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quot\\u4e88\\u7b97\\u6848_JA&quot&#044&quotlabel&quot:&quot\\u4e88\\u7b97\\u6848_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotProra\\u010dun&#044 verzija_HR&quot&#044&quotlabel&quot:&quotProra\\u010dun&#044 verzija_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quotK\\u00f6lts\\u00e9gvet\\u00e9si v\\u00e1ltozat_HU&quot&#044&quotlabel&quot:&quotK\\u00f6lts\\u00e9gvet\\u00e9si v\\u00e1ltozat_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotVersione budget_IT&quot&#044&quotlabel&quot:&quotVersione budget_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quot\\uc608\\uc0b0 \\ubc84\\uc804_KO&quot&#044&quotlabel&quot:&quot\\uc608\\uc0b0 \\ubc84\\uc804_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotBudsjettversjon_NO&quot&#044&quotlabel&quot:&quotBudsjettversjon_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quotBud\\u017cet&#044 wersja_PL&quot&#044&quotlabel&quot:&quotBud\\u017cet&#044 wersja_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotVers\\u00e3o do or\\u00e7amento_PT&quot&#044&quotlabel&quot:&quotVers\\u00e3o do or\\u00e7amento_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotVersiunea de buget_RO&quot&#044&quotlabel&quot:&quotVersiunea de buget_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quot\\u0412\\u0435\\u0440\\u0441\\u0438\\u044f \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442\\u0430_RU&quot&#044&quotlabel&quot:&quot\\u0412\\u0435\\u0440\\u0441\\u0438\\u044f \\u0431\\u044e\\u0434\\u0436\\u0435\\u0442\\u0430_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quot\\u9884\\u7b97\\u7248\\u672c_SC&quot&#044&quotlabel&quot:&quot\\u9884\\u7b97\\u7248\\u672c_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quotBudgetversion_SV&quot&#044&quotlabel&quot:&quotBudgetversion_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u9810\\u7b97\\u7248\\u672c_TC&quot&#044&quotlabel&quot:&quot\\u9810\\u7b97\\u7248\\u672c_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotB\\u00fct\\u00e7e s\\u00fcr\\u00fcm_TR&quot&#044&quotlabel&quot:&quotB\\u00fct\\u00e7e s\\u00fcr\\u00fcm_TR&quot&#044&quotisAlias&quot:&quotfalse&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotqualifySeparator&quot:&quot&#044 &quot&#044&quotexists&quot:true}]}\f",
+	"VariablesUIData":
+	[
+		"_DataType=STRING\f_DimCaption=Budget version\f_DimType=GENERIC\f_LevelCaption=Budget version\f_SourceIndex=0\f_UILabel=Budget version\f_UserVisible=v_Budget_version_0\fVarType=32\fColType=825\fVarDimension=Budget version\fVarDimAction=Update\fVarElemType=Numeric\fVarDimOrder=1\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=DESCENDING\f",
+		"_DataType=STRING\f_SourceIndex=1\f_UILabel=Presupuesto versión_ES\f_UserVisible=v_Presupuesto_versi_n_ES_1\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Presupuesto versión_ES\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=2\f_UILabel=Budjettiversio_FI\f_UserVisible=v_Budjettiversio_FI_2\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Budjettiversio_FI\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=3\f_UILabel=Budgetplan Version_DE\f_UserVisible=v_Budgetplan_Version_DE_3\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Budgetplan Version_DE\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=4\f_UILabel=Version du budget_FR\f_UserVisible=v_Version_du_budget_FR_4\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Version du budget_FR\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=5\f_UILabel=予算案_JA\f_UserVisible=v_____JA_5\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=予算案_JA\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=6\f_UILabel=Proračun, verzija_HR\f_UserVisible=v_Prora_un__verzija_HR_6\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Proračun, verzija_HR\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=7\f_UILabel=Költségvetési változat_HU\f_UserVisible=v_K_lts_gvet_si_v_ltozat_HU_7\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Költségvetési változat_HU\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=8\f_UILabel=Versione budget_IT\f_UserVisible=v_Versione_budget_IT_8\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Versione budget_IT\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=9\f_UILabel=예산 버전_KO\f_UserVisible=v_______KO_9\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=예산 버전_KO\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=10\f_UILabel=Budsjettversjon_NO\f_UserVisible=v_Budsjettversjon_NO_10\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Budsjettversjon_NO\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=11\f_UILabel=Budżet, wersja_PL\f_UserVisible=v_Bud_et__wersja_PL_11\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Budżet, wersja_PL\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=12\f_UILabel=Versão do orçamento_PT\f_UserVisible=v_Vers_o_do_or_amento_PT_12\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Versão do orçamento_PT\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=13\f_UILabel=Versiunea de buget_RO\f_UserVisible=v_Versiunea_de_buget_RO_13\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Versiunea de buget_RO\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=14\f_UILabel=Версия бюджета_RU\f_UserVisible=v________________RU_14\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Версия бюджета_RU\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=15\f_UILabel=预算版本_SC\f_UserVisible=v______SC_15\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=预算版本_SC\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=16\f_UILabel=Budgetversion_SV\f_UserVisible=v_Budgetversion_SV_16\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Budgetversion_SV\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=17\f_UILabel=預算版本_TC\f_UserVisible=v______TC_17\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=預算版本_TC\fAttributeType=Alias\f",
+		"_DataType=STRING\f_SourceIndex=18\f_UILabel=Bütçe sürüm_TR\f_UserVisible=v_B_t_e_s_r_m_TR_18\fVarType=32\fColType=841\fAttributeDim=Budget version\fAttributeElemVar=v_Budget_version_0\fAttributeAction=Update\fAttributeName=Bütçe sürüm_TR\fAttributeType=Text\f"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":"\t",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"C:\\Program Files\\IBM\\cognos\\tm1\\samples\\tm1\\GO_New_Stores\\translation files\\budget_version.txt",
+		"dataSourceNameForServer":"../translation files/budget_version.txt"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"param_destroy",
+			"Prompt":"Destroy dimensions",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"param_createIfNotExist",
+			"Prompt":"Create dimensions if they do not exist",
+			"Value":1,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"v_Budget_version_0",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Presupuesto_versi_n_ES_1",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Budjettiversio_FI_2",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Budgetplan_Version_DE_3",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Version_du_budget_FR_4",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_____JA_5",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Prora_un__verzija_HR_6",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_K_lts_gvet_si_v_ltozat_HU_7",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Versione_budget_IT_8",
+			"Type":"String",
+			"Position":9,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_______KO_9",
+			"Type":"String",
+			"Position":10,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Budsjettversjon_NO_10",
+			"Type":"String",
+			"Position":11,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Bud_et__wersja_PL_11",
+			"Type":"String",
+			"Position":12,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Vers_o_do_or_amento_PT_12",
+			"Type":"String",
+			"Position":13,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Versiunea_de_buget_RO_13",
+			"Type":"String",
+			"Position":14,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v________________RU_14",
+			"Type":"String",
+			"Position":15,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v______SC_15",
+			"Type":"String",
+			"Position":16,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Budgetversion_SV_16",
+			"Type":"String",
+			"Position":17,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v______TC_17",
+			"Type":"String",
+			"Position":18,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_B_t_e_s_r_m_TR_18",
+			"Type":"String",
+			"Position":19,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

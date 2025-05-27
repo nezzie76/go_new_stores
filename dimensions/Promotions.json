@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Promotions",
+	"Hierarchies@Code.links":
+	[
+		"Promotions.hierarchies/Promotions.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Promotions')/Hierarchies('Promotions')"
+	}
+}

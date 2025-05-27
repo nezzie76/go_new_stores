@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Gross Sales Margin",
+	"Hierarchies@Code.links":
+	[
+		"Gross Sales Margin.hierarchies/Gross Sales Margin.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Gross Sales Margin')/Hierarchies('Gross Sales Margin')"
+	}
+}

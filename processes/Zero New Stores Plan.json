@@ -1,0 +1,12 @@
+{
+	"@type":"Process",
+	"Name":"Zero New Stores Plan",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"Zero New Stores Plan.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[]
+}

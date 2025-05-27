@@ -1,0 +1,208 @@
+{
+	"@type":"Process",
+	"Name":"import_asset_types",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"import_asset_types.ti",
+	"UIData":"CubeAction=1511\fDataAction=1504\fCubeLogChanges=0\fMeasuresDimOrder=1\f_DeployParams={&quotdataAction&quot:&quotACCUMULATE&quot&#044&quotclass&quot:&quotDeployParams&quot&#044&quotdimensionConflictResolutions&quot:{}}\f_ParseParams={&quotmeasures&quot:[{&quotcolumnType&quot:&quotINT&quot&#044&quotsourceColumn&quot:-2&#044&quotcolumnName&quot:&quotCount&quot&#044&quotlabel&quot:&quotCount&quot&#044&quotmeasureType&quot:&quotEMPTY&quot&#044&quotexpression&quot:null&#044&quotlocale&quot:&quoten_US&quot&#044&quotexists&quot:false}]&#044&quothasHeader&quot:&quottrue&quot&#044&quotnumColumns&quot:&quot21&quot&#044&quotskipRows&quot:&quot0&quot&#044&quotlocale&quot:{&quotlanguange&quot:&quoten&quot&#044&quotvariant&quot:&quot&quot&#044&quotcountry&quot:&quotUS&quot}&#044&quotdimensions&quot:[{&quotdimensionType&quot:&quotGENERIC&quot&#044&quotleafSortDirection&quot:&quotDECENDING&quot&#044&quotconsolidatedSortDirection&quot:&quotDECENDING&quot&#044&quotqualifyHierarchy&quot:true&#044&quotcreateTotalRoot&quot:false&#044&quotinvariantName&quot:&quotAsset Type&quot&#044&quotlevels&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:0&#044&quotcolumnName&quot:&quotAsset Type&quot&#044&quotelementWeight&quot:&quot1&quot&#044&quotlabel&quot:&quotAsset Type&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotTyp aktiva_CS&quot&#044&quotlabel&quot:&quotTyp aktiva_CS&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotAktivtype_DA&quot&#044&quotlabel&quot:&quotAktivtype_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotAnlageverm\\u00f6genstyp_DE&quot&#044&quotlabel&quot:&quotAnlageverm\\u00f6genstyp_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotTipo de activo_ES&quot&#044&quotlabel&quot:&quotTipo de activo_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotOmaisuuden tyyppi_FI&quot&#044&quotlabel&quot:&quotOmaisuuden tyyppi_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotType d'actif_FR&quot&#044&quotlabel&quot:&quotType d'actif_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u8cc7\\u7523\\u30bf\\u30a4\\u30d7_JA&quot&#044&quotlabel&quot:&quot\\u8cc7\\u7523\\u30bf\\u30a4\\u30d7_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotTip sredstva_HR&quot&#044&quotlabel&quot:&quotTip sredstva_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quotVagyont\\u00e1rgyt\\u00edpus_HU&quot&#044&quotlabel&quot:&quotVagyont\\u00e1rgyt\\u00edpus_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotTipo attivit\\u00e0_IT&quot&#044&quotlabel&quot:&quotTipo attivit\\u00e0_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\uc790\\uc0b0 \\uc720\\ud615_KO&quot&#044&quotlabel&quot:&quot\\uc790\\uc0b0 \\uc720\\ud615_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotAnleggsmiddeltype_NO&quot&#044&quotlabel&quot:&quotAnleggsmiddeltype_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotTyp zasobu_PL&quot&#044&quotlabel&quot:&quotTyp zasobu_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotTipo de ativo_PT&quot&#044&quotlabel&quot:&quotTipo de ativo_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotTip de activ_RO&quot&#044&quotlabel&quot:&quotTip de activ_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u0422\\u0438\\u043f \\u0430\\u043a\\u0442\\u0438\\u0432\\u0430_RU&quot&#044&quotlabel&quot:&quot\\u0422\\u0438\\u043f \\u0430\\u043a\\u0442\\u0438\\u0432\\u0430_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u8d44\\u4ea7\\u7c7b\\u578b_SC&quot&#044&quotlabel&quot:&quot\\u8d44\\u4ea7\\u7c7b\\u578b_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotTillg\\u00e5ngsslag_SV&quot&#044&quotlabel&quot:&quotTillg\\u00e5ngsslag_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u8cc7\\u7522\\u985e\\u578b_TC&quot&#044&quotlabel&quot:&quot\\u8cc7\\u7522\\u985e\\u578b_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotAktif Tipi_TR&quot&#044&quotlabel&quot:&quotAktif Tipi_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotexpression&quot:null&#044&quotexists&quot:true}]&#044&quotisMeasureDimension&quot:false&#044&quotparentChild&quot:false&#044&quotconsolidatedSortType&quot:&quotNONE&quot&#044&quotstrategy&quot:&quotMERGE&quot&#044&quotlabel&quot:&quotAsset Type&quot&#044&quotisMemberUpdateStrategyChanged&quot:false&#044&quotleafSortType&quot:&quotNONE&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotTyp aktiva_CS&quot&#044&quotlabel&quot:&quotTyp aktiva_CS&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotAktivtype_DA&quot&#044&quotlabel&quot:&quotAktivtype_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotAnlageverm\\u00f6genstyp_DE&quot&#044&quotlabel&quot:&quotAnlageverm\\u00f6genstyp_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotTipo de activo_ES&quot&#044&quotlabel&quot:&quotTipo de activo_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotOmaisuuden tyyppi_FI&quot&#044&quotlabel&quot:&quotOmaisuuden tyyppi_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotType d'actif_FR&quot&#044&quotlabel&quot:&quotType d'actif_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u8cc7\\u7523\\u30bf\\u30a4\\u30d7_JA&quot&#044&quotlabel&quot:&quot\\u8cc7\\u7523\\u30bf\\u30a4\\u30d7_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotTip sredstva_HR&quot&#044&quotlabel&quot:&quotTip sredstva_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quotVagyont\\u00e1rgyt\\u00edpus_HU&quot&#044&quotlabel&quot:&quotVagyont\\u00e1rgyt\\u00edpus_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotTipo attivit\\u00e0_IT&quot&#044&quotlabel&quot:&quotTipo attivit\\u00e0_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\uc790\\uc0b0 \\uc720\\ud615_KO&quot&#044&quotlabel&quot:&quot\\uc790\\uc0b0 \\uc720\\ud615_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotAnleggsmiddeltype_NO&quot&#044&quotlabel&quot:&quotAnleggsmiddeltype_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotTyp zasobu_PL&quot&#044&quotlabel&quot:&quotTyp zasobu_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotTipo de ativo_PT&quot&#044&quotlabel&quot:&quotTipo de ativo_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotTip de activ_RO&quot&#044&quotlabel&quot:&quotTip de activ_RO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u0422\\u0438\\u043f \\u0430\\u043a\\u0442\\u0438\\u0432\\u0430_RU&quot&#044&quotlabel&quot:&quot\\u0422\\u0438\\u043f \\u0430\\u043a\\u0442\\u0438\\u0432\\u0430_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u8d44\\u4ea7\\u7c7b\\u578b_SC&quot&#044&quotlabel&quot:&quot\\u8d44\\u4ea7\\u7c7b\\u578b_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotTillg\\u00e5ngsslag_SV&quot&#044&quotlabel&quot:&quotTillg\\u00e5ngsslag_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u8cc7\\u7522\\u985e\\u578b_TC&quot&#044&quotlabel&quot:&quot\\u8cc7\\u7522\\u985e\\u578b_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotAktif Tipi_TR&quot&#044&quotlabel&quot:&quotAktif Tipi_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotqualifySeparator&quot:&quot&#044 &quot&#044&quotexists&quot:true}]}\f",
+	"VariablesUIData":
+	[
+		"VarType=32\fColType=825\fVarDimension=Asset Type\fVarDimAction=Update\fVarElemType=Numeric\fVarDimOrder=1\fVarDimElemSortType=BYINPUT\fVarDimElemSortSense=DESCENDING\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Typ aktiva_CS\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Aktivtype_DA\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Anlagevermögenstyp_DE\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Tipo de activo_ES\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Omaisuuden tyyppi_FI\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Type d'actif_FR\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=資産タイプ_JA\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Tip sredstva_HR\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Vagyontárgytípus_HU\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Tipo attività_IT\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=자산 유형_KO\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Anleggsmiddeltype_NO\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Typ zasobu_PL\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Tipo de ativo_PT\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Tip de activ_RO\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Тип актива_RU\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=资产类型_SC\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Tillgångsslag_SV\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=資產類型_TC\fAttributeType=Alias\f",
+		"VarType=32\fColType=841\fAttributeDim=Asset Type\fAttributeElemVar=v_Asset_Type_0\fAttributeAction=Update\fAttributeName=Aktif Tipi_TR\fAttributeType=Alias\f"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":"\t",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"C:\\Program Files\\IBM\\cognos\\tm1_64\\samples\\tm1\\GO_New_Stores\\translation files\\asset_types.txt",
+		"dataSourceNameForServer":"../translation files/asset_types.txt"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"param_destroy",
+			"Prompt":"Destroy dimensions",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"param_createIfNotExist",
+			"Prompt":"Create dimensions if they do not exist",
+			"Value":1,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"v_Asset_Type_0",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Typ_aktiva_CS_1",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Aktivtype_DA_2",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Anlageverm_genstyp_DE_3",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Tipo_de_activo_ES_4",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Omaisuuden_tyyppi_FI_5",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Type_d_actif_FR_6",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_______JA_7",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Tip_sredstva_HR_8",
+			"Type":"String",
+			"Position":9,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Vagyont_rgyt_pus_HU_9",
+			"Type":"String",
+			"Position":10,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Tipo_attivit__IT_10",
+			"Type":"String",
+			"Position":11,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_______KO_11",
+			"Type":"String",
+			"Position":12,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Anleggsmiddeltype_NO_12",
+			"Type":"String",
+			"Position":13,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Typ_zasobu_PL_13",
+			"Type":"String",
+			"Position":14,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Tipo_de_ativo_PT_14",
+			"Type":"String",
+			"Position":15,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Tip_de_activ_RO_15",
+			"Type":"String",
+			"Position":16,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v____________RU_16",
+			"Type":"String",
+			"Position":17,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v______SC_17",
+			"Type":"String",
+			"Position":18,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Tillg_ngsslag_SV_18",
+			"Type":"String",
+			"Position":19,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v______TC_19",
+			"Type":"String",
+			"Position":20,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Aktif_Tipi_TR_20",
+			"Type":"String",
+			"Position":21,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

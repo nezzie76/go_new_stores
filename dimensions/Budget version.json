@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Budget version",
+	"Hierarchies@Code.links":
+	[
+		"Budget version.hierarchies/Budget version.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Budget version')/Hierarchies('Budget version')"
+	}
+}

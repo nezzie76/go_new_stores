@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Existing Stores Revenue",
+	"Hierarchies@Code.links":
+	[
+		"Existing Stores Revenue.hierarchies/Existing Stores Revenue.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Existing Stores Revenue')/Hierarchies('Existing Stores Revenue')"
+	}
+}

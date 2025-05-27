@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Local Currency",
+	"Hierarchies@Code.links":
+	[
+		"Local Currency.hierarchies/Local Currency.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Local Currency')/Hierarchies('Local Currency')"
+	}
+}
