@@ -1,0 +1,208 @@
+{
+	"@type":"Process",
+	"Name":"import_errorflag",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"import_errorflag.ti",
+	"UIData":"_ParseParams={&quotmeasures&quot:[]&#044&quothasHeader&quot:&quottrue&quot&#044&quotnumColumns&quot:&quot21&quot&#044&quotskipRows&quot:&quot0&quot&#044&quotlocale&quot:{&quotlanguange&quot:&quoten&quot&#044&quotvariant&quot:&quot&quot&#044&quotcountry&quot:&quotUS&quot}&#044&quotdimensions&quot:[{&quotdimensionType&quot:&quotGENERIC&quot&#044&quotleafSortDirection&quot:&quotDECENDING&quot&#044&quotconsolidatedSortDirection&quot:&quotDECENDING&quot&#044&quotqualifyHierarchy&quot:true&#044&quotcreateTotalRoot&quot:false&#044&quotinvariantName&quot:&quotError flag&quot&#044&quotlevels&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:0&#044&quotcolumnName&quot:&quotError flag&quot&#044&quotelementWeight&quot:&quot1&quot&#044&quotlabel&quot:&quotError flag&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotP\\u0159\\u00edznak chyby_CS&quot&#044&quotlabel&quot:&quotP\\u0159\\u00edznak chyby_CS&quot&#044&quotisAlias&quot:&quotfalse&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotFejlmarkering_DA&quot&#044&quotlabel&quot:&quotFejlmarkering_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotFehlerkennzeichen_DE&quot&#044&quotlabel&quot:&quotFehlerkennzeichen_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotDistintivo de error_ES&quot&#044&quotlabel&quot:&quotDistintivo de error_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotVirhelippu_FI&quot&#044&quotlabel&quot:&quotVirhelippu_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotIndicateur d'erreur_FR&quot&#044&quotlabel&quot:&quotIndicateur d'erreur_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u30a8\\u30e9\\u30fc\\u30fb\\u30d5\\u30e9\\u30b0_JA&quot&#044&quotlabel&quot:&quot\\u30a8\\u30e9\\u30fc\\u30fb\\u30d5\\u30e9\\u30b0_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotOznaka gre\\u0161ke_HR&quot&#044&quotlabel&quot:&quotOznaka gre\\u0161ke_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quotHibajelz\\u0151_HU&quot&#044&quotlabel&quot:&quotHibajelz\\u0151_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotIndicatore errori_IT&quot&#044&quotlabel&quot:&quotIndicatore errori_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\uc624\\ub958 \\ud50c\\ub798\\uadf8_KO&quot&#044&quotlabel&quot:&quot\\uc624\\ub958 \\ud50c\\ub798\\uadf8_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotFeilflagg_NO&quot&#044&quotlabel&quot:&quotFeilflagg_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotFlaga b\\u0142\\u0119du_PL&quot&#044&quotlabel&quot:&quotFlaga b\\u0142\\u0119du_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotSinalizador de erro_PT&quot&#044&quotlabel&quot:&quotSinalizador de erro_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotEroare flag_RO&quot&#044&quotlabel&quot:&quotEroare flag_RO&quot&#044&quotisAlias&quot:&quotfalse&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u0424\\u043b\\u0430\\u0433 \\u043e\\u0448\\u0438\\u0431\\u043a\\u0438_RU&quot&#044&quotlabel&quot:&quot\\u0424\\u043b\\u0430\\u0433 \\u043e\\u0448\\u0438\\u0431\\u043a\\u0438_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u9519\\u8bef\\u6807\\u8bb0_SC&quot&#044&quotlabel&quot:&quot\\u9519\\u8bef\\u6807\\u8bb0_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotFelflagga_SV&quot&#044&quotlabel&quot:&quotFelflagga_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u932f\\u8aa4\\u65d7\\u6a19_TC&quot&#044&quotlabel&quot:&quot\\u932f\\u8aa4\\u65d7\\u6a19_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotHata i\\u015fareti_TR&quot&#044&quotlabel&quot:&quotHata i\\u015fareti_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotexpression&quot:null&#044&quotexists&quot:true}]&#044&quotisMeasureDimension&quot:false&#044&quotparentChild&quot:false&#044&quotconsolidatedSortType&quot:&quotNONE&quot&#044&quotstrategy&quot:&quotMERGE&quot&#044&quotlabel&quot:&quotError flag&quot&#044&quotisMemberUpdateStrategyChanged&quot:false&#044&quotleafSortType&quot:&quotNONE&quot&#044&quotattributes&quot:[{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:1&#044&quotcolumnName&quot:&quotP\\u0159\\u00edznak chyby_CS&quot&#044&quotlabel&quot:&quotP\\u0159\\u00edznak chyby_CS&quot&#044&quotisAlias&quot:&quotfalse&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:2&#044&quotcolumnName&quot:&quotFejlmarkering_DA&quot&#044&quotlabel&quot:&quotFejlmarkering_DA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:3&#044&quotcolumnName&quot:&quotFehlerkennzeichen_DE&quot&#044&quotlabel&quot:&quotFehlerkennzeichen_DE&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:4&#044&quotcolumnName&quot:&quotDistintivo de error_ES&quot&#044&quotlabel&quot:&quotDistintivo de error_ES&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:5&#044&quotcolumnName&quot:&quotVirhelippu_FI&quot&#044&quotlabel&quot:&quotVirhelippu_FI&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:6&#044&quotcolumnName&quot:&quotIndicateur d'erreur_FR&quot&#044&quotlabel&quot:&quotIndicateur d'erreur_FR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:7&#044&quotcolumnName&quot:&quot\\u30a8\\u30e9\\u30fc\\u30fb\\u30d5\\u30e9\\u30b0_JA&quot&#044&quotlabel&quot:&quot\\u30a8\\u30e9\\u30fc\\u30fb\\u30d5\\u30e9\\u30b0_JA&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:8&#044&quotcolumnName&quot:&quotOznaka gre\\u0161ke_HR&quot&#044&quotlabel&quot:&quotOznaka gre\\u0161ke_HR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:9&#044&quotcolumnName&quot:&quotHibajelz\\u0151_HU&quot&#044&quotlabel&quot:&quotHibajelz\\u0151_HU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:10&#044&quotcolumnName&quot:&quotIndicatore errori_IT&quot&#044&quotlabel&quot:&quotIndicatore errori_IT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:11&#044&quotcolumnName&quot:&quot\\uc624\\ub958 \\ud50c\\ub798\\uadf8_KO&quot&#044&quotlabel&quot:&quot\\uc624\\ub958 \\ud50c\\ub798\\uadf8_KO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:12&#044&quotcolumnName&quot:&quotFeilflagg_NO&quot&#044&quotlabel&quot:&quotFeilflagg_NO&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:13&#044&quotcolumnName&quot:&quotFlaga b\\u0142\\u0119du_PL&quot&#044&quotlabel&quot:&quotFlaga b\\u0142\\u0119du_PL&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:14&#044&quotcolumnName&quot:&quotSinalizador de erro_PT&quot&#044&quotlabel&quot:&quotSinalizador de erro_PT&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:15&#044&quotcolumnName&quot:&quotEroare flag_RO&quot&#044&quotlabel&quot:&quotEroare flag_RO&quot&#044&quotisAlias&quot:&quotfalse&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:16&#044&quotcolumnName&quot:&quot\\u0424\\u043b\\u0430\\u0433 \\u043e\\u0448\\u0438\\u0431\\u043a\\u0438_RU&quot&#044&quotlabel&quot:&quot\\u0424\\u043b\\u0430\\u0433 \\u043e\\u0448\\u0438\\u0431\\u043a\\u0438_RU&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:17&#044&quotcolumnName&quot:&quot\\u9519\\u8bef\\u6807\\u8bb0_SC&quot&#044&quotlabel&quot:&quot\\u9519\\u8bef\\u6807\\u8bb0_SC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:18&#044&quotcolumnName&quot:&quotFelflagga_SV&quot&#044&quotlabel&quot:&quotFelflagga_SV&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:19&#044&quotcolumnName&quot:&quot\\u932f\\u8aa4\\u65d7\\u6a19_TC&quot&#044&quotlabel&quot:&quot\\u932f\\u8aa4\\u65d7\\u6a19_TC&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}&#044{&quotcolumnType&quot:&quotSTRING&quot&#044&quotsourceColumn&quot:20&#044&quotcolumnName&quot:&quotHata i\\u015fareti_TR&quot&#044&quotlabel&quot:&quotHata i\\u015fareti_TR&quot&#044&quotisAlias&quot:&quottrue&quot&#044&quotexpression&quot:null&#044&quotinvariantName&quot:&quot&quot&#044&quotexists&quot:true}]&#044&quotqualifySeparator&quot:&quot&#044 &quot&#044&quotexists&quot:true}]}\f_DeployParams={&quotdataAction&quot:&quotACCUMULATE&quot&#044&quotclass&quot:&quotDeployParams&quot&#044&quotdimensionConflictResolutions&quot:{}}\f",
+	"VariablesUIData":
+	[
+		"_DimCaption=Error flag\f_DimType=GENERIC\fVarType=32\fColType=825\fVarDimension=Error flag\fVarDimOrder=1\fVarDimAction=Update\fVarElemType=Numeric\fVarDimElemSortType=ByInput\fVarDimElemSortSense=DESCENDING\f_LevelCaption=Error flag\f_UserVisible=v_Error_flag_0\f_UILabel=Error flag\f_DataType=STRING\f_SourceIndex=0\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Příznak chyby_CS\fAttributeType=Text\f_UserVisible=v_P__znak_chyby_CS_1\f_UILabel=Příznak chyby_CS\f_DataType=STRING\f_SourceIndex=1\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Fejlmarkering_DA\fAttributeType=Alias\f_UserVisible=v_Fejlmarkering_DA_2\f_UILabel=Fejlmarkering_DA\f_DataType=STRING\f_SourceIndex=2\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Fehlerkennzeichen_DE\fAttributeType=Alias\f_UserVisible=v_Fehlerkennzeichen_DE_3\f_UILabel=Fehlerkennzeichen_DE\f_DataType=STRING\f_SourceIndex=3\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Distintivo de error_ES\fAttributeType=Alias\f_UserVisible=v_Distintivo_de_error_ES_4\f_UILabel=Distintivo de error_ES\f_DataType=STRING\f_SourceIndex=4\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Virhelippu_FI\fAttributeType=Alias\f_UserVisible=v_Virhelippu_FI_5\f_UILabel=Virhelippu_FI\f_DataType=STRING\f_SourceIndex=5\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Indicateur d'erreur_FR\fAttributeType=Alias\f_UserVisible=v_Indicateur_d_erreur_FR_6\f_UILabel=Indicateur d'erreur_FR\f_DataType=STRING\f_SourceIndex=6\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=エラー・フラグ_JA\fAttributeType=Alias\f_UserVisible=v_________JA_7\f_UILabel=エラー・フラグ_JA\f_DataType=STRING\f_SourceIndex=7\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Oznaka greške_HR\fAttributeType=Alias\f_UserVisible=v_Oznaka_gre_ke_HR_8\f_UILabel=Oznaka greške_HR\f_DataType=STRING\f_SourceIndex=8\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Hibajelző_HU\fAttributeType=Alias\f_UserVisible=v_Hibajelz__HU_9\f_UILabel=Hibajelző_HU\f_DataType=STRING\f_SourceIndex=9\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Indicatore errori_IT\fAttributeType=Alias\f_UserVisible=v_Indicatore_errori_IT_10\f_UILabel=Indicatore errori_IT\f_DataType=STRING\f_SourceIndex=10\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=오류 플래그_KO\fAttributeType=Alias\f_UserVisible=v________KO_11\f_UILabel=오류 플래그_KO\f_DataType=STRING\f_SourceIndex=11\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Feilflagg_NO\fAttributeType=Alias\f_UserVisible=v_Feilflagg_NO_12\f_UILabel=Feilflagg_NO\f_DataType=STRING\f_SourceIndex=12\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Flaga błędu_PL\fAttributeType=Alias\f_UserVisible=v_Flaga_b__du_PL_13\f_UILabel=Flaga błędu_PL\f_DataType=STRING\f_SourceIndex=13\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Sinalizador de erro_PT\fAttributeType=Alias\f_UserVisible=v_Sinalizador_de_erro_PT_14\f_UILabel=Sinalizador de erro_PT\f_DataType=STRING\f_SourceIndex=14\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Eroare flag_RO\fAttributeType=Text\f_UserVisible=v_Eroare_flag_RO_15\f_UILabel=Eroare flag_RO\f_DataType=STRING\f_SourceIndex=15\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Флаг ошибки_RU\fAttributeType=Alias\f_UserVisible=v_____________RU_16\f_UILabel=Флаг ошибки_RU\f_DataType=STRING\f_SourceIndex=16\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=错误标记_SC\fAttributeType=Alias\f_UserVisible=v______SC_17\f_UILabel=错误标记_SC\f_DataType=STRING\f_SourceIndex=17\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Felflagga_SV\fAttributeType=Alias\f_UserVisible=v_Felflagga_SV_18\f_UILabel=Felflagga_SV\f_DataType=STRING\f_SourceIndex=18\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=錯誤旗標_TC\fAttributeType=Alias\f_UserVisible=v______TC_19\f_UILabel=錯誤旗標_TC\f_DataType=STRING\f_SourceIndex=19\f",
+		"VarType=32\fColType=841\fAttributeDim=Error flag\fAttributeElemVar=v_Error_flag_0\fAttributeAction=Update\fAttributeName=Hata işareti_TR\fAttributeType=Alias\f_UserVisible=v_Hata_i_areti_TR_20\f_UILabel=Hata işareti_TR\f_DataType=STRING\f_SourceIndex=20\f"
+	],
+	"DataSource":
+	{
+		"Type":"ASCII",
+		"asciiDecimalSeparator":".",
+		"asciiDelimiterChar":"\t",
+		"asciiDelimiterType":"Character",
+		"asciiHeaderRecords":1,
+		"asciiQuoteCharacter":"\"",
+		"asciiThousandSeparator":",",
+		"dataSourceNameForClient":"C:\\Program Files\\IBM\\cognos\\tm1\\samples\\tm1\\GO_New_Stores\\translation files\\error_flag.txt",
+		"dataSourceNameForServer":"../translation files/error_flag.txt"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"param_destroy",
+			"Prompt":"Destroy dimensions",
+			"Value":0,
+			"Type":"Numeric"
+		},
+		{
+			"Name":"param_createIfNotExist",
+			"Prompt":"Create dimensions if they do not exist",
+			"Value":1,
+			"Type":"Numeric"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"v_Error_flag_0",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_P__znak_chyby_CS_1",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Fejlmarkering_DA_2",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Fehlerkennzeichen_DE_3",
+			"Type":"String",
+			"Position":4,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Distintivo_de_error_ES_4",
+			"Type":"String",
+			"Position":5,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Virhelippu_FI_5",
+			"Type":"String",
+			"Position":6,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Indicateur_d_erreur_FR_6",
+			"Type":"String",
+			"Position":7,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_________JA_7",
+			"Type":"String",
+			"Position":8,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Oznaka_gre_ke_HR_8",
+			"Type":"String",
+			"Position":9,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Hibajelz__HU_9",
+			"Type":"String",
+			"Position":10,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Indicatore_errori_IT_10",
+			"Type":"String",
+			"Position":11,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v________KO_11",
+			"Type":"String",
+			"Position":12,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Feilflagg_NO_12",
+			"Type":"String",
+			"Position":13,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Flaga_b__du_PL_13",
+			"Type":"String",
+			"Position":14,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Sinalizador_de_erro_PT_14",
+			"Type":"String",
+			"Position":15,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Eroare_flag_RO_15",
+			"Type":"String",
+			"Position":16,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_____________RU_16",
+			"Type":"String",
+			"Position":17,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v______SC_17",
+			"Type":"String",
+			"Position":18,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Felflagga_SV_18",
+			"Type":"String",
+			"Position":19,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v______TC_19",
+			"Type":"String",
+			"Position":20,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"v_Hata_i_areti_TR_20",
+			"Type":"String",
+			"Position":21,
+			"StartByte":0,
+			"EndByte":0
+		}
+	]
+}

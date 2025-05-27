@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"商店规模_SC",
+	"Alias":"商店规模_SC",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Full Size Store')"
+		},
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Mini Size Store')"
+		}
+	]
+}

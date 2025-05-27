@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"店舗サイズ_JA",
+	"Alias":"店舗サイズ_JA",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Full Size Store')"
+		},
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Mini Size Store')"
+		}
+	]
+}

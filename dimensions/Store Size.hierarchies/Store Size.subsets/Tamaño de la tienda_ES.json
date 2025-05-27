@@ -1,0 +1,14 @@
+{
+	"@type":"Subset",
+	"Name":"Tamaño de la tienda_ES",
+	"Alias":"Tamaño de la tienda_ES",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Full Size Store')"
+		},
+		{
+			"@id":"Dimensions('Store Size')/Hierarchies('Store Size')/Elements('Mini Size Store')"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Tipo de cambio_ES",
+	"Alias":"Tipo de cambio_ES",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Exchange Rate')/Hierarchies('Exchange Rate')/Elements('Exchange Rate')"
+		}
+	]
+}
